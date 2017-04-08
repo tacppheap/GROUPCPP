@@ -1,6 +1,6 @@
 #pragma once
-#include "dictionary.h"
-#include "Stack.h"
+#include "Assembler/dictionary.h"
+#include "Stack/Stack.h"
 #include <string>
 #include <fstream>
 #include <iostream>

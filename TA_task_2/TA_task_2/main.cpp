@@ -1,14 +1,14 @@
-#include "Vector.h"
-#include "Array.h"
+#include "Vector/Vector.h"
+#include "Array/Array.h"
 #include <cstdlib>
 #include <string>
 #include "my_print.h"
-#include "my_auto_ptr.h"
-#include "my_unique_ptr.h"
-#include "my_shared_ptr.h"
-#include "Stack.h"
-#include "my_translator.h"
-#include "my_processor.h"
+#include "Smart_Pointers/auto_ptr/my_auto_ptr.h"
+#include "Smart_Pointers/uniq_ptr/my_unique_ptr.h"
+#include "Smart_Pointers/shared_ptr/my_shared_ptr.h"
+#include "Stack/Stack.h"
+#include "Assembler/Translator/my_translator.h"
+#include "Assembler/Processor/my_processor.h"
 
 /*Vector<int>* pv = new Vector<int>(5);
 Vector<int>* f()

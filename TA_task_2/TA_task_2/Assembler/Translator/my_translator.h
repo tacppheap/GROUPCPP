@@ -2,7 +2,7 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include "dictionary.h"
+#include "Assembler/dictionary.h"
 #include <math.h>
 
 using std::string;
