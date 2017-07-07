@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Array">
+      <UniqueIdentifier>{098cf140-c604-4837-855c-c5e8707f030c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{38629a95-cb8b-4b56-be00-9f9c8590cf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smart pointers">
+      <UniqueIdentifier>{43b96580-5159-4e55-864a-0c85dcda0733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smart pointers\my_auto_ptr">
+      <UniqueIdentifier>{250191e1-98f4-49fe-9c7a-532e9e5f98c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smart pointers\my_shared_ptr">
+      <UniqueIdentifier>{917d9406-1fec-4658-bb41-9ae44d1a399e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Smart pointers\my_unique_ptr">
+      <UniqueIdentifier>{28d5228c-a511-4545-a73e-2b160cbc46a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stack">
+      <UniqueIdentifier>{288ba501-e043-465a-bc07-b43fc7ab56a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembler">
+      <UniqueIdentifier>{24825e4b-282e-4e30-b3ab-935692c25128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembler\Translator">
+      <UniqueIdentifier>{658c7693-27c5-4cfb-9bc5-ca8976b03313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assembler\Processor">
+      <UniqueIdentifier>{c23a3558-5d43-4a00-9bcd-10deb31724e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="my_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="my_exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="poison_value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="my_print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\Array.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\Array.hpp">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Array\array_iterator.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector\vector_iterator.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector\Vector.hpp">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector\Vector.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\uniq_ptr\my_unique_ptr.hpp">
+      <Filter>Smart pointers\my_unique_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\uniq_ptr\my_unique_ptr.h">
+      <Filter>Smart pointers\my_unique_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\auto_ptr\my_auto_ptr.h">
+      <Filter>Smart pointers\my_auto_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\auto_ptr\my_auto_ptr.hpp">
+      <Filter>Smart pointers\my_auto_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\shared_ptr\my_proxy.h">
+      <Filter>Smart pointers\my_shared_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\shared_ptr\my_proxy.hpp">
+      <Filter>Smart pointers\my_shared_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\shared_ptr\my_shared_ptr.h">
+      <Filter>Smart pointers\my_shared_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\shared_ptr\my_shared_ptr.hpp">
+      <Filter>Smart pointers\my_shared_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler\Processor\my_processor.h">
+      <Filter>Assembler\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler\Processor\my_processor.hpp">
+      <Filter>Assembler\Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack\Stack.hpp">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Smart_Pointers\shared_ptr\proxy_store_element.h">
+      <Filter>Smart pointers\my_shared_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack\Stack.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler\Translator\my_translator.h">
+      <Filter>Assembler\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler\Translator\my_translator.hpp">
+      <Filter>Assembler\Translator</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler\dictionary.hpp">
+      <Filter>Assembler</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler\dictionary.h">
+      <Filter>Assembler</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
