@@ -26,15 +26,12 @@ public:
 	std::string get_response()
 	{
 		std::stringstream ssOut;
-		bool fileNameDetected = false;
-
-		
+		bool fileNameDetected = false;	
 
 		for (int i = 1; i <= url.size(); i++)
 		{
 			if (url[url.size() - i] == '/' )
-			{
-			
+			{			
 				if (fileNameDetected)
 				{
 					subCommand.insert(0, url, url.size() - i + 1, i-fileName.size() - 1);
@@ -55,8 +52,6 @@ public:
 		{
 			fileNameDetected = false;
 		}
-
-
 
 		if (fileNameDetected && subCommand == "get/")
 		{
@@ -211,9 +206,10 @@ int main(int argc, const char * argv[])
 	io_service io_service;
 	ip::tcp::endpoint endpoint( ip::tcp::v4(), 80 );
 	ip::tcp::acceptor acceptor( io_service, endpoint);
-
+	
 	acceptor.listen();
 	accept_and_run(acceptor, io_service);
+	std::cout << "Wait for connections..."<<std::endl;
 
 	io_service.run();
 	return 0;
