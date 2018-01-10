@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="50" height="33" tilewidth="32" tileheight="32" nextobjectid="84">
+ <tileset firstgid="1" name="karta8" tilewidth="1600" tileheight="1079" tilecount="1" columns="1">
+  <image source="../../../../../../../Downloads/karta8.png" width="1600" height="1079"/>
+ </tileset>
+ <objectgroup name="Слой объектов 5">
+  <object id="72" gid="1" x="0" y="1080.42" width="1600" height="1079"/>
+ </objectgroup>
+ <objectgroup name="players">
+  <object id="50" x="387.879" y="245.454" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="zombies">
+  <object id="74" x="148.788" y="790.303" width="34.5" height="33"/>
+  <object id="75" x="505.879" y="819.758" width="34.5" height="33"/>
+  <object id="76" x="1472.73" y="463.636" width="34.5" height="33"/>
+  <object id="77" x="578.788" y="124.242" width="34.5" height="33"/>
+  <object id="78" x="1065.61" y="66.5758" width="34.5" height="33"/>
+  <object id="79" x="844.485" y="930.606" width="34.5" height="33"/>
+  <object id="80" x="1045.55" y="229.697" width="34.5" height="33"/>
+  <object id="81" x="542.546" y="445.697" width="34.5" height="33"/>
+  <object id="82" x="199.546" y="114.697" width="34.5" height="33"/>
+  <object id="83" x="360.728" y="976" width="34.5" height="33"/>
+ </objectgroup>
+ <objectgroup name="lights">
+  <object id="61" x="57.5758" y="633.334" width="363.97" height="224.242">
+   <properties>
+    <property name="lightX" type="int" value="64"/>
+    <property name="lightY" type="int" value="715"/>
+   </properties>
+  </object>
+  <object id="62" x="493.364" y="584.546" width="348.606" height="280.091">
+   <properties>
+    <property name="lightX" type="int" value="533"/>
+    <property name="lightY" type="int" value="612"/>
+   </properties>
+  </object>
+  <object id="63" x="286.97" y="94.7576" width="200.788" height="304.818">
+   <properties>
+    <property name="lightX" type="int" value="400"/>
+    <property name="lightY" type="int" value="52"/>
+   </properties>
+  </object>
+  <object id="64" x="562.636" y="198.909" width="164.515" height="127.273">
+   <properties>
+    <property name="lightX" type="int" value="606"/>
+    <property name="lightY" type="int" value="255"/>
+   </properties>
+  </object>
+  <object id="65" x="1337.39" y="659.515" width="186.727" height="387.879">
+   <properties>
+    <property name="lightX" type="int" value="1430"/>
+    <property name="lightY" type="int" value="1021"/>
+   </properties>
+  </object>
+  <object id="66" x="1139.52" y="768" width="127.273" height="148.485">
+   <properties>
+    <property name="lightX" type="int" value="1224"/>
+    <property name="lightY" type="int" value="803"/>
+   </properties>
+  </object>
+  <object id="67" x="1376.45" y="632.242" width="192.152" height="242.424">
+   <properties>
+    <property name="lightX" type="int" value="1567"/>
+    <property name="lightY" type="int" value="733"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="walls">
+  <object id="2" x="8" y="2" width="336" height="81.3333"/>
+  <object id="3" x="2.0303" y="2" width="49.303" height="247"/>
+  <object id="4" x="0" y="215" width="225" height="217"/>
+  <object id="5" x="178" y="407" width="47.6667" height="225"/>
+  <object id="6" x="1.93939" y="432" width="48.3939" height="618"/>
+  <object id="8" x="0" y="1027.27" width="606.061" height="57.5758"/>
+  <object id="9" x="173.818" y="848.485" width="97.7277" height="233.333"/>
+  <object id="10" x="559.636" y="901.894" width="39.3939" height="170.834"/>
+  <object id="11" x="441.152" y="897.728" width="158.454" height="41.6666"/>
+  <object id="13" x="439.333" y="546" width="48.6667" height="394"/>
+  <object id="14" x="439.5" y="539.5" width="494.5" height="42.5"/>
+  <object id="15" x="873" y="544" width="63" height="120.5"/>
+  <object id="16" x="873" y="627.5" width="315" height="41"/>
+  <object id="17" x="1126" y="636" width="62" height="114"/>
+  <object id="18" x="496" y="582" width="67" height="62"/>
+  <object id="19" x="6" y="675" width="77" height="63"/>
+  <object id="21" x="1126.5" y="712" width="189.5" height="38.5"/>
+  <object id="23" x="1260.67" y="712" width="56" height="184"/>
+  <object id="26" x="289" y="0" width="49" height="186"/>
+  <object id="27" x="348" y="0" width="78.5" height="77"/>
+  <object id="29" x="505.333" y="2" width="57.1667" height="398"/>
+  <object id="30" x="505.333" y="344" width="355.667" height="59.3333"/>
+  <object id="31" x="752" y="124" width="64" height="274"/>
+  <object id="32" x="757.333" y="124.667" width="697.5" height="47.3333"/>
+  <object id="34" x="1420" y="128" width="34.5" height="288"/>
+  <object id="36" x="1274" y="386" width="180" height="30"/>
+  <object id="37" x="1034" y="308" width="234" height="182"/>
+  <object id="38" x="1236" y="308" width="71.6667" height="182.667"/>
+  <object id="39" x="1258" y="442" width="49.6667" height="124"/>
+  <object id="42" x="1258" y="522" width="131.5" height="46"/>
+  <object id="43" x="1186.67" y="756" width="80" height="72"/>
+  <object id="44" x="428.667" y="6.66667" width="1176.67" height="30.6667"/>
+  <object id="46" x="1572.7" y="3.0303" width="33.3636" height="1078.79"/>
+  <object id="47" x="1493.94" y="709.909" width="78.7879" height="53.8485"/>
+  <object id="48" x="609.091" y="1043.52" width="996.97" height="41.3333"/>
+  <object id="49" x="1393.94" y="984.848" width="59.697" height="60.6061"/>
+  <object id="68" x="561.697" y="224.242" width="62.5455" height="60.6061"/>
+ </objectgroup>
+</map>

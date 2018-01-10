@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD843CA5-700A-4871-B9EE-C81B50149A83}</ProjectGuid>
+    <RootNamespace>MFG</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\lib\SFML</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;gdi32.lib;freetype.lib;jpeg.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-system-s.lib;sfml-window-s.lib;sfml-graphics-s.lib;sfml-network-s.lib;sfml-audio-s.lib;sfml-system-s-d.lib;sfml-window-s-d.lib;sfml-graphics-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;kernel32.lib;user32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\MFG\;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\include;C:\Users\PMG\Documents\Visual Studio 2015\Projects\InterfaceDll\InterfaceDll;C:\Users\PMG\Documents\Visual Studio 2015\Projects\ZombieM\ZombieM;C:\Users\PMG\Documents\Visual Studio 2015\Projects\Tile_Field\Tile_Field;C:\Users\PMG\Documents\Visual Studio 2015\Projects\GameObjectM\GameObjectM;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MovableObject\MovableObject</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DLL_EXPORTS;SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\GameObjectM\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MovableObject\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\ZombieM\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\Tile_Field\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\InterfaceDll\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\lib\SFML</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;gdi32.lib;freetype.lib;jpeg.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-system-s.lib;sfml-window-s.lib;sfml-graphics-s.lib;sfml-network-s.lib;sfml-audio-s.lib;GameObjectM.lib;MovableObject.lib;ZombieM.lib;Tile_Field.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\lib\SFML</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;gdi32.lib;freetype.lib;jpeg.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-system-s.lib;sfml-window-s.lib;sfml-graphics-s.lib;sfml-network-s.lib;sfml-audio-s.lib;sfml-system-s-d.lib;sfml-window-s-d.lib;sfml-graphics-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;kernel32.lib;user32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\MFG\;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\include;C:\Users\PMG\Documents\Visual Studio 2015\Projects\InterfaceDll\InterfaceDll;C:\Users\PMG\Documents\Visual Studio 2015\Projects\ZombieM\ZombieM;C:\Users\PMG\Documents\Visual Studio 2015\Projects\Tile_Field\Tile_Field;C:\Users\PMG\Documents\Visual Studio 2015\Projects\GameObjectM\GameObjectM;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MovableObject\MovableObject</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DLL_EXPORTS;SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\PMG\Documents\Visual Studio 2015\Projects\GameObjectM\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MovableObject\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\ZombieM\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\Tile_Field\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\InterfaceDll\x64\Release;C:\Users\PMG\Documents\Visual Studio 2015\Projects\MFG\lib\SFML</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;gdi32.lib;freetype.lib;jpeg.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-system-s.lib;sfml-window-s.lib;sfml-graphics-s.lib;sfml-network-s.lib;sfml-audio-s.lib;GameObjectM.lib;MovableObject.lib;ZombieM.lib;Tile_Field.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TinyXML\tinyxml2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameModel\GameObjectM.h" />
+    <ClInclude Include="GameModel\GMImplement\GameObjectM.hpp" />
+    <ClInclude Include="GameModel\GMImplement\LevelM.hpp" />
+    <ClInclude Include="GameModel\GMImplement\LightSourceM.hpp" />
+    <ClInclude Include="GameModel\GMImplement\MovableObjectM.hpp" />
+    <ClInclude Include="GameModel\GMImplement\OliveM.hpp" />
+    <ClInclude Include="GameModel\GMImplement\PlayerM.hpp" />
+    <ClInclude Include="GameModel\GMImplement\TileField.hpp" />
+    <ClInclude Include="GameModel\GMImplement\WallM.hpp" />
+    <ClInclude Include="GameModel\GMImplement\ZombieM.hpp" />
+    <ClInclude Include="GameModel\LevelM.h" />
+    <ClInclude Include="GameModel\LightSourceM.h" />
+    <ClInclude Include="GameModel\MovableObjectM.h" />
+    <ClInclude Include="GameModel\OliveM.h" />
+    <ClInclude Include="GameModel\TileField.h" />
+    <ClInclude Include="GameModel\TileManager.h" />
+    <ClInclude Include="GameModel\WallM.h" />
+    <ClInclude Include="GameModel\PlayerM.h" />
+    <ClInclude Include="Event\MyEvent.h" />
+    <ClInclude Include="GameModel\ZombieM.h" />
+    <ClInclude Include="GameVisualModel\Animation.h" />
+    <ClInclude Include="GameVisualModel\GVMImplement\Animation.hpp" />
+    <ClInclude Include="GameVisualModel\GVMImplement\GameObjectVM.hpp" />
+    <ClInclude Include="GameVisualModel\GVMImplement\LevelVM.hpp" />
+    <ClInclude Include="GameVisualModel\GVMImplement\OliveVM.hpp" />
+    <ClInclude Include="GameVisualModel\GVMImplement\PlayerVM.hpp" />
+    <ClInclude Include="GameVisualModel\GVMImplement\ShadowVM.hpp" />
+    <ClInclude Include="GameVisualModel\GVMImplement\WallVM.hpp" />
+    <ClInclude Include="GameVisualModel\GVMImplement\ZombieVM.hpp" />
+    <ClInclude Include="GameVisualModel\LevelVM.h" />
+    <ClInclude Include="GameVisualModel\OliveVM.h" />
+    <ClInclude Include="GameVisualModel\PlayerVM.h" />
+    <ClInclude Include="GameVisualModel\ShadowVM.h" />
+    <ClInclude Include="GameVisualModel\WallVM.h" />
+    <ClInclude Include="GameModel\GameVisual\GameV.h" />
+    <ClInclude Include="GameModel\GameVisual\GVImplement\GameV.hpp" />
+    <ClInclude Include="GameVisualModel\ZombieVM.h" />
+    <ClInclude Include="GameVisual\GameV.h" />
+    <ClInclude Include="GameVisual\GVImplement\GameV.hpp" />
+    <ClInclude Include="GameVisual\GVImplement\HSL.hpp" />
+    <ClInclude Include="GameVisual\HealthBar.h" />
+    <ClInclude Include="GameVisual\HSL.h" />
+    <ClInclude Include="GameVisual\Interface.h" />
+    <ClInclude Include="GameVisual\InterfaceObject.h" />
+    <ClInclude Include="TinyXML\tinyxml2.h" />
+    <ClInclude Include="GameVisualModel\GameObjectVM.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameObjectTextures\1.png" />
+    <Image Include="GameObjectTextures\Olive.png" />
+    <Image Include="GameObjectTextures\player.png" />
+    <Image Include="GameObjectTextures\wall.png" />
+    <Image Include="GameObjectTextures\zombie.png" />
+    <Image Include="tilesets\MFM\tmw_desert_spacing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tilesets\MFM\desert.tsx" />
+    <None Include="tilesets\MFM\MFM.tmx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
