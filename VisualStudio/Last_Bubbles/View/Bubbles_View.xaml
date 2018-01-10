@@ -1,0 +1,14 @@
+﻿<Window x:Class="Last_Bubbles.View.Bubbles_View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Last_Bubbles.VM"
+          
+         
+
+    Name="MainWindow" Height="500" Width="400"  WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    
+    <Grid>
+        <Frame Source="welcome.xaml" NavigationUIVisibility="Hidden" BorderBrush="Blue"></Frame>
+
+    </Grid>
+</Window>
